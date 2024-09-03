@@ -1,0 +1,56 @@
+object Form1: TForm1
+  Left = 495
+  Height = 641
+  Top = 44
+  Width = 976
+  ClientHeight = 641
+  ClientWidth = 976
+  DesignTimePPI = 168
+  object Button1: TButton
+    Left = 176
+    Height = 89
+    Top = 256
+    Width = 409
+    Caption = 'Щелкните здесь'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -23
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Label1: TLabel
+    Left = 176
+    Height = 27
+    Top = 112
+    Width = 676
+    Caption = 'Догадайтесь, кто сделал этот проект?'
+    Font.CharSet = ANSI_CHARSET
+    Font.Name = 'Yu Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+    OnClick = Label1Click
+  end
+  object Label2: TLabel
+    Left = 176
+    Height = 1
+    Top = 402
+    Width = 1
+  end
+  object BitBtn1: TBitBtn
+    Left = 784
+    Height = 47
+    Top = 552
+    Width = 114
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+end

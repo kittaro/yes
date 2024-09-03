@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 495
+  Height = 446
+  Top = 44
+  Width = 841
+  Caption = 'Form1'
+  ClientHeight = 446
+  ClientWidth = 841
+  DesignTimePPI = 168
+  OnCreate = FormCreate
+  object Label1: TLabel
+    Left = 44
+    Height = 30
+    Top = 61
+    Width = 199
+    Caption = 'Введите пременные:'
+  end
+  object Label2: TLabel
+    Left = 280
+    Height = 30
+    Top = 61
+    Width = 11
+    Caption = 'a'
+  end
+  object Label3: TLabel
+    Left = 280
+    Height = 30
+    Top = 120
+    Width = 12
+    Caption = 'b'
+  end
+  object Label4: TLabel
+    Left = 280
+    Height = 30
+    Top = 184
+    Width = 7
+    Caption = 't'
+  end
+  object Edit1: TEdit
+    Left = 318
+    Height = 38
+    Top = 61
+    Width = 303
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 318
+    Height = 38
+    Top = 120
+    Width = 303
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 318
+    Height = 38
+    Top = 184
+    Width = 303
+    TabOrder = 2
+  end
+  object Label5: TLabel
+    Left = 360
+    Height = 30
+    Top = 352
+    Width = 61
+    Caption = 'Ответ:'
+  end
+  object Button1: TButton
+    Left = 48
+    Height = 57
+    Top = 344
+    Width = 249
+    Caption = 'Вычислить'
+    TabOrder = 3
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 48
+    Height = 49
+    Top = 109
+    Width = 188
+    Caption = 'Очистить'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Label6: TLabel
+    Left = 472
+    Height = 1
+    Top = 352
+    Width = 1
+  end
+  object Label7: TLabel
+    Left = 360
+    Height = 30
+    Top = 304
+    Width = 264
+    Caption = 'f=e^(-bt)*sin(at+b)-√(|bt+a|)'
+  end
+end

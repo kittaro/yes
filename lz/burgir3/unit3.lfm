@@ -1,0 +1,66 @@
+object Form1: TForm1
+  Left = 495
+  Height = 666
+  Top = 44
+  Width = 985
+  Caption = 'Form1'
+  ClientHeight = 666
+  ClientWidth = 985
+  DesignTimePPI = 168
+  object Label1: TLabel
+    Left = 49
+    Height = 30
+    Top = 436
+    Width = 145
+    Caption = 'Введите число:'
+  end
+  object Label2: TLabel
+    Left = 49
+    Height = 30
+    Top = 520
+    Width = 164
+    Caption = 'Введите степень:'
+  end
+  object Edit1: TEdit
+    Left = 271
+    Height = 38
+    Top = 428
+    Width = 573
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 272
+    Height = 38
+    Top = 512
+    Width = 573
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 43
+    Height = 310
+    Top = 45
+    Width = 890
+    TabOrder = 2
+  end
+  object BitBtn1: TBitBtn
+    Left = 776
+    Height = 47
+    Top = 595
+    Width = 169
+    Cancel = True
+    Caption = 'Выход'
+    Kind = bkCancel
+    ModalResult = 2
+    OnClick = BitBtn1Click
+    TabOrder = 3
+  end
+  object BitBtn2: TBitBtn
+    Left = 517
+    Height = 44
+    Top = 595
+    Width = 241
+    Caption = 'Возвести в степень'
+    OnClick = BitBtn2Click
+    TabOrder = 4
+  end
+end

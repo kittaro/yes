@@ -1,0 +1,145 @@
+object fEdit: TfEdit
+  Left = 538
+  Height = 342
+  Top = 205
+  Width = 1160
+  BorderStyle = bsDialog
+  Caption = 'Редактор записи'
+  ClientHeight = 342
+  ClientWidth = 1160
+  Color = clWindow
+  DesignTimePPI = 144
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.2.0.0'
+  object Name: TLabel
+    Left = 42
+    Height = 25
+    Top = 24
+    Width = 132
+    Caption = 'Название трека:'
+    ParentColor = False
+  end
+  object eName: TEdit
+    Left = 192
+    Height = 33
+    Top = 24
+    Width = 391
+    TabOrder = 0
+  end
+  object Author: TLabel
+    Left = 119
+    Height = 25
+    Top = 80
+    Width = 55
+    Caption = 'Автор:'
+    ParentColor = False
+    OnClick = AuthorClick
+  end
+  object eAuthor: TEdit
+    Left = 192
+    Height = 33
+    Top = 80
+    Width = 263
+    TabOrder = 1
+  end
+  object Bass: TLabel
+    Left = 24
+    Height = 25
+    Top = 248
+    Width = 150
+    Caption = 'Насколько качает:'
+    ParentColor = False
+  end
+  object CBSmotr: TComboBox
+    Left = 192
+    Height = 33
+    Top = 248
+    Width = 320
+    ItemHeight = 25
+    Items.Strings = (
+      'Жоский кач'
+      'Качает солидно'
+      'Норм'
+      'Бассов мало'
+      'Сдать в ломбард'
+    )
+    TabOrder = 2
+  end
+  object bSave: TBitBtn
+    Left = 648
+    Height = 45
+    Top = 240
+    Width = 200
+    Caption = 'Сохранить'
+    Default = True
+    Kind = bkOK
+    ModalResult = 1
+    OnClick = bSaveClick
+    TabOrder = 3
+  end
+  object bCancel: TBitBtn
+    Left = 904
+    Height = 45
+    Top = 240
+    Width = 200
+    Cancel = True
+    Caption = 'Не сохранять'
+    Kind = bkCancel
+    ModalResult = 2
+    TabOrder = 4
+  end
+  object Year: TLabel
+    Left = 80
+    Height = 25
+    Top = 136
+    Width = 94
+    Caption = 'Год релиза:'
+    ParentColor = False
+  end
+  object eYear: TEdit
+    Left = 192
+    Height = 33
+    Top = 136
+    Width = 184
+    TabOrder = 5
+    OnChange = eYearChange
+    OnKeyPress = eYearKeyPress
+  end
+  object Disk: TLabel
+    Left = 648
+    Height = 25
+    Top = 136
+    Width = 112
+    Caption = 'Есть на диске:'
+    ParentColor = False
+  end
+  object CBNote: TComboBox
+    Left = 784
+    Height = 33
+    Top = 136
+    Width = 150
+    ItemHeight = 25
+    Items.Strings = (
+      'Да'
+      'Нет'
+    )
+    TabOrder = 6
+  end
+  object Fyletype: TLabel
+    Left = 87
+    Height = 25
+    Top = 192
+    Width = 87
+    Caption = 'Тип файла:'
+    ParentColor = False
+  end
+  object Regh: TEdit
+    Left = 192
+    Height = 33
+    Top = 192
+    Width = 391
+    TabOrder = 7
+    OnChange = ReghChange
+  end
+end

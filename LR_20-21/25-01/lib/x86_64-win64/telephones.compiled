@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="J:\BG\lazarus\fpc\3.2.2\bin\x86_64-win64\fpc.exe" Date="1482330472"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -gw3 -gl -WG -l -vewnhibq &quot;-FiC:\Users\bobso\OneDrive\Документы\чето сложно\laza\25-01\lib\x86_64-win64&quot; -FuJ:\BG\lazarus\lcl\units\x86_64-win64\win32 -FuJ:\BG\lazarus\lcl\units\x86_64-win64 -FuJ:\BG\lazarus\components\freetype\lib\x86_64-win64 -FuJ:\BG\lazarus\components\lazutils\lib\x86_64-win64 -FuJ:\BG\lazarus\packager\units\x86_64-win64 &quot;-FuC:\Users\bobso\OneDrive\Документы\чето сложно\laza\25-01\&quot; &quot;-FUC:\Users\bobso\OneDrive\Документы\чето сложно\laza\25-01\lib\x86_64-win64\&quot; &quot;-FEC:\Users\bobso\OneDrive\Документы\чето сложно\laza\25-01\&quot; &quot;-oC:\Users\bobso\OneDrive\Документы\чето сложно\laza\25-01\telephones.exe&quot; -dLCL -dLCLwin32 telephones.lpr"/>
+</CONFIG>
